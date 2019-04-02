@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -19,6 +17,11 @@
   color: white;
 }
 
+body
+{
+  margin-top: 5%;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +33,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#url
+{
+  background-color: #d44638;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  
+}
+
+input
+{
+   background-color: white;
+    color: Black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #C0C0C0 1px;
+    padding: 3px 10px;
+
+font-size:15px;
+width: 250px;
+text-align: center;
+}
+
+#search
+{
+  margin-left: 30%;
+  height: 30px;
+}
+
+#searchForm
+{
+
+  margin-left: 25%;
+  
+  width: 50%;
+  height: auto;
+  box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#title
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#block
+{
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 2%;
+}
+#author
+{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 17px;
+}
+
+#image
+{
+  width: 500px;
+  height: auto;
+  
+  
+}
+#publishdate
+{
+  color: grey;
+  padding:10px;
+  
 }
